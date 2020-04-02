@@ -312,7 +312,7 @@ Plug 'connorholyday/vim-snazzy'
 "Plug 'nathanaelkane/vim-indent-guides'
 "Plug 'itchyny/vim-cursorword'
 "
-"" Git
+" Git
 "Plug 'rhysd/conflict-marker.vim'
 "Plug 'tpope/vim-fugitive'
 "Plug 'mhinz/vim-signify'
