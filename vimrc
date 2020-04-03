@@ -178,12 +178,12 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 " ============================ key map ============================
-noremap i k
-noremap i h
-noremap k j
-noremap j h
-noremap h i
-noremap h i
+"noremap i k
+"noremap i h
+"noremap k j
+"noremap j h
+"noremap h i
+"noremap h i
 
 " 将K与s键的作用取消
 noremap K <nop>
