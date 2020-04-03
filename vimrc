@@ -179,11 +179,18 @@ endfun
 
 " ============================ key map ============================
 "noremap i k
+<<<<<<< HEAD
 "noremap i h
 "noremap k j
 "noremap j h
 "noremap h i
 "noremap h i
+=======
+"noremap k j
+"noremap j h
+"noremap h i
+"noremap h H
+>>>>>>> 6440a5e65011230418e357b47877dcf531c8039d
 
 " 将K与s键的作用取消
 noremap K <nop>
