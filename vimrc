@@ -162,7 +162,7 @@ func SetTitle()
     " python
     if expand("%:e") == 'py'
         call setline(1, "\#!/usr/bin/env python")
-        call append(1, "\# encoding: utf-8")
+        call append(1, "\# -*- coding:UTF-8 -*-")
     endif
     normal G
     normal o
