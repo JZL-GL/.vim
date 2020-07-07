@@ -10,6 +10,14 @@
 " Desc: simple vim config for server, without any plugins.
 "==========================================
 
+" encoding
+set encoding=utf-8
+set fileencodings=utf-8,latin1
+set termencoding=utf-8
+set ffs=unix,dos,mac
+set formatoptions+=m            " 如遇Unicode值大于255的文本，不必等到空格再折行
+set formatoptions+=B            " 合并两行中文时，不在中间加空格(当连接行时，不要在两个多字节字符之间插入空格)
+
 " define leader key
 let mapleader=','
 let g:mapleader = ','
@@ -90,13 +98,6 @@ set foldclose=all               " 设置为自动关闭折叠
 set foldlevelstart=99           " 打开文件是默认不折叠代码, 因为初始化级别太高
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 
-" encoding
-set encoding=utf-8
-set fileencodings=utf-8,latin1
-set termencoding=utf-8
-set ffs=unix,dos,mac
-set formatoptions+=m            " 如遇Unicode值大于255的文本，不必等到空格再折行
-set formatoptions+=B            " 合并两行中文时，不在中间加空格(当连接行时，不要在两个多字节字符之间插入空格)
 
 " select & complete
 set mouse=c                     " 鼠标模式
