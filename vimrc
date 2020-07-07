@@ -10,7 +10,7 @@
 " Desc: simple vim config for server, without any plugins.
 "==========================================
 
-" encoding
+" encoding, It's better to put it at the beginning
 set encoding=utf-8
 set fileencodings=utf-8,latin1
 set termencoding=utf-8
